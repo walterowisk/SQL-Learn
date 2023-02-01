@@ -2,4 +2,3 @@
 
 Repositório de conteúdo SQL
 
-Cursos e treinamentos
