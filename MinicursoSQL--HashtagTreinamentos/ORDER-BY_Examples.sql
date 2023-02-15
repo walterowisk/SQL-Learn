@@ -1,4 +1,5 @@
 -- ORDER BY:
+
 /*
 Exemplo 1: Faça uma consulta na tabela de clientes e faça uma ordenação 
 de acordo com o nome do cliente, em ordem alfabética.
