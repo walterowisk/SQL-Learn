@@ -15,7 +15,7 @@ FROM lojas
 ORDER BY Num_Funcionarios ASC;
 
 /*
-b) Faça uma cosulta na tabela de clientes, ordenando a tabela de acordo com o nome
+b) Faça uma consulta na tabela de clientes, ordenando a tabela de acordo com o nome
 (ordem alfabética) e sobrenome (ordem alfabética). Retorne todas as colunas e linhas da tabela.
 */
 
