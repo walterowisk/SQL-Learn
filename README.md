@@ -1,4 +1,4 @@
-# SQL-Learn
+# :game_die: SQL-Learn
 
-Repositório de conteúdo SQL
+Material extraído de cursos e teinamentos em SQL.
 
