@@ -1,3 +1,11 @@
 -- Questão 1: Selecione a tabela de Produtos do banco de dados 'Base' (Minicurso SQL - Hashtag) 
 
 SELECT * FROM produtos;
+
+-- Questão 2: Crie duas consultas nesta mesma janela de query:
+-- A consulta 1 deve retornar a tabela de categorias;
+-- A consulta 2 deve retornar a tabela de lojas.
+
+SELECT * FROM categorias;
+
+SELECT * FROM lojas;
