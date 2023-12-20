@@ -9,3 +9,7 @@ SELECT * FROM produtos;
 SELECT * FROM categorias;
 
 SELECT * FROM lojas;
+
+-- Questão 3: Quais marcas de produtos são vendidas pela empresa?
+
+SELECT DISTINCT  Marca_Produto FROM produtos;
