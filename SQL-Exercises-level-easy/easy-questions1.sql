@@ -14,3 +14,7 @@ SELECT DISTINCT  Marca_Produto FROM produtos;
 SELECT *  FROM produtos
 ORDER BY Preco_Unit DESC
 LIMIT 3;
+
+-- Questão 5: Faça uma lista dos clientes pós-graduados.
+SELECT * FROM clientes
+WHERE Escolaridade = 'Pós-graduado';
