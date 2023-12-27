@@ -5,6 +5,7 @@ SELECT * FROM produtos;
 -- A consulta 1 deve retornar a tabela de categorias;
 -- A consulta 2 deve retornar a tabela de lojas.
 SELECT * FROM categorias;
+
 SELECT * FROM lojas;
 
 -- Questão 3: Quais marcas de produtos são vendidas pela empresa?
@@ -23,3 +24,9 @@ WHERE Escolaridade = 'Pós-graduado';
 -- Obs.: Não utilize o operador OR.
 SELECT * FROM produtos
 WHERE Marca_Produto IN ('DELL', 'SAMSUNG', 'JBL');
+
+-- Questão 7: Quantos clientes existem na base? Todos os clientes possuem telefone cadastrado?
+SELECT COUNT(*) FROM clientes;
+
+SELECT * FROM clientes
+WHERE  Telefone IS NULL;
