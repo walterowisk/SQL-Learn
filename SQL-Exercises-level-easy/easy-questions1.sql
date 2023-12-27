@@ -18,3 +18,8 @@ LIMIT 3;
 -- Questão 5: Faça uma lista dos clientes pós-graduados.
 SELECT * FROM clientes
 WHERE Escolaridade = 'Pós-graduado';
+
+-- Questão 6: Crie uma consulta à tabela Produtos que retorna todos os produtos das marcas DELL, SAMSUNG e JBL. 
+-- Obs.: Não utilize o operador OR.
+SELECT * FROM produtos
+WHERE Marca_Produto IN ('DELL', 'SAMSUNG', 'JBL');
